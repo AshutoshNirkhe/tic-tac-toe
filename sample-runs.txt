@@ -1,0 +1,126 @@
+Sample runs -
+
+$ ./tic-tac-toe.sh
+Initial state :
+
+   -1   -1   -1
+   -1   -1   -1
+   -1   -1   -1
+
+Note : -1 means the position is still empty.
+
+Game begins now...
+
+1st player (row column): 0 0
+
+    o   -1   -1
+   -1   -1   -1
+   -1   -1   -1
+
+2nd player (row column): 0 2
+
+    o   -1    x
+   -1   -1   -1
+   -1   -1   -1
+
+1st player (row column): 2 2
+
+    o   -1    x
+   -1   -1   -1
+   -1   -1    o
+
+2nd player (row column): 1 1
+
+    o   -1    x
+   -1    x   -1
+   -1   -1    o
+
+1st player (row column): 2 0
+
+    o   -1    x
+   -1    x   -1
+    o   -1    o
+
+2nd player (row column): 1 0
+
+    o   -1    x
+    x    x   -1
+    o   -1    o
+
+1st player (row column): 2 1
+
+    o   -1    x
+    x    x   -1
+    o    o    o
+
+Game over!!!!
+
+============================================================================
+
+$ ./tic-tac-toe.sh
+Initial state :
+
+   -1   -1   -1
+   -1   -1   -1
+   -1   -1   -1
+
+Note : -1 means the position is still empty.
+
+Game begins now...
+
+1st player (row column): 0 0
+
+    o   -1   -1
+   -1   -1   -1
+   -1   -1   -1
+
+2nd player (row column): 1 2
+
+    o   -1   -1
+   -1   -1    x
+   -1   -1   -1
+
+1st player (row column): 1 1
+
+    o   -1   -1
+   -1    o    x
+   -1   -1   -1
+
+2nd player (row column): 2 2
+
+    o   -1   -1
+   -1    o    x
+   -1   -1    x
+
+1st player (row column): 0 2
+
+    o   -1    o
+   -1    o    x
+   -1   -1    x
+
+2nd player (row column): 2 0
+
+    o   -1    o
+   -1    o    x
+    x   -1    x
+
+1st player (row column): 2 1
+
+    o   -1    o
+   -1    o    x
+    x    o    x
+
+2nd player (row column): 0 1
+
+    o    x    o
+   -1    o    x
+    x    o    x
+
+1st player (row column): 1 0
+
+    o    x    o
+    o    o    x
+    x    o    x
+
+It's draw!!!
+
